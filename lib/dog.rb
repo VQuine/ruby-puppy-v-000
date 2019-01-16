@@ -1,5 +1,6 @@
 class Dog
   attr_accessor :name
+  
   @@all = []
 
   def name(name)
@@ -12,6 +13,10 @@ class Dog
 
   def self.clear_all
     @@all.clear
+  end
+
+  def self.all
+    puts @@all
   end
 
 

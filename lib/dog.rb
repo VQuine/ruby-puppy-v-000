@@ -9,4 +9,11 @@ class Dog
   def initialize(name)
     @@all << self
   end
-end
+
+  def clear_all
+    @@all = []
+  end
+
+
+  
+end # <--- method end

@@ -15,5 +15,5 @@ class Dog
   end
 
 
-  
+
 end # <--- method end
